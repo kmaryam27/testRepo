@@ -21,7 +21,7 @@ app.use(express.static('public'));
 
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://admin:myjs123@ds153015.mlab.com:53015/heroku_zbpc0htr", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI ||"mongodb://admin:myjava123@ds141613.mlab.com:41613/heroku_l0zsr5bb", { useNewUrlParser: true });
 
 
 
