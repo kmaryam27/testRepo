@@ -1,4 +1,3 @@
-// Exporting an object containing all of our models
 module.exports = {
-    ToDoList: require("./todoList")
-  };
+  Tweet: require("./Tweet")
+};
